@@ -19,7 +19,7 @@ header {
 .leftbox {
   width: 450px;
   height: 800px;
-  background-color: white ;
+  background-image: url(bilder/vitbg.png  );
   float: left;
   margin-left: 150px;
   opacity: 1;
@@ -29,8 +29,8 @@ header {
   height: 800px;
   float: right;
   margin-right: 150px;
-  background-color: white ;
-  opacity: 1;
+  background-image: url(bilder/vitbg.png  );
+
 }
 .add{
   width: 900px;

@@ -1,4 +1,4 @@
-var Item = parse.Object.extend("Item");
+var Item = Parse.Object.extend("Item");
 var query = new Parse.Query(Item);
 query.equalTo("Lost", true);
 query.find({
@@ -7,6 +7,6 @@ query.find({
     }
 
 
-    
+
   })
 }
