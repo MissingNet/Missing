@@ -6,9 +6,9 @@ body {
   margin-right: auto;
   margin-bottom: -22px;
   width: 100%;
-  background-image: url(bilder/eubg.pn  );
+  background-image: url(bilder/panoramacity.jpg  );
   background-repeat: no-repeat;
-  background-color: grey;
+  background-color: white;
   background-position: center;
 }
 header {
@@ -19,18 +19,18 @@ header {
 .leftbox {
   width: 450px;
   height: 800px;
-  background-color: white;
+  background-color: white ;
   float: left;
   margin-left: 150px;
-  /* opacity: 0.5;*/
+  opacity: 1;
 }
 .rightbox {
   width: 450px;
   height: 800px;
   float: right;
   margin-right: 150px;
-  background-color: white;
-  /* opacity: 0.5;*/
+  background-color: white ;
+  opacity: 1;
 }
 .add{
   width: 900px;
