@@ -30,7 +30,6 @@ function getItems() {
 getItems();
 
 $("#post-form").submit(function(event){
-  event.preventDefault();
     var title = $("#post-title").val();
     var description = $("#post-description").val();
     var name = $("#post-name").val();
