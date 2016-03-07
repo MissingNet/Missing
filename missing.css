@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-color: white;
   background-position: center;
-  font-family: 'Avenir next';
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 header {
   width: 100%;
@@ -91,18 +91,17 @@ footer > ul > li{
     width: 100%;
     height: 55px;
     box-shadow: 1px 1px 3px rgba(0,0,0, 0.2);
-    font-family: 'Avenir next';
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 .mainheader nav ul {
     list-style: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    width: 410px;
+    width: 424px;
 }
 .mainheader nav ul li {
     float: left;
-    font-family: 'Avenir next';
     height : 35px;
     padding: 0 10px;
     font-size: 18.1px;

@@ -11,12 +11,10 @@ function getItems() {
           var description = results[i].get("description");
           var name = results[i].get("name");
 
-
           output += "<li>";
           output += "<h3>"+title+"</h3>";
           output += "<p>"+description+"</p>";
           output += "<p>"+"Kontakta: "+name+"</p>";
-
           output += "</li>";
         }
         $("#list-items").html(output);
