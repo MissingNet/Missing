@@ -5,10 +5,12 @@ body {
   margin-right: auto;
   margin-bottom: -22px;
   min-width: 1200px;
-  background-image: url(bilder/panoramacity.jpg  );
+  background-image: url(bilder/panoramacity.jpg);
   background-repeat: no-repeat;
   background-color: white;
   background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 header {
@@ -18,24 +20,23 @@ header {
 }
 .leftbox {
   width: 450px;
-  height: 800px;
-  background-image: url(bilder/vitbg.png  );
+  min-height: 800px;
+  background-color: rgba(255, 255, 255, 0.7);
   float: left;
   margin-left: 150px;
-  opacity: 1;
 }
 .rightbox {
   width: 450px;
-  height: 800px;
+  min-height: 800px;
   float: right;
   margin-right: 150px;
-  background-image: url(bilder/vitbg.png);
-
-}
+  background-color: rgba(255, 255, 255, 0.7);
+  }
 .add{
-  width: 600px;
+  width: 800px;
   height: 800px;
   margin: auto;
+  margin-bottom: -10px;
 
   background-color: white;
 }
@@ -124,7 +125,6 @@ footer > ul > li{
 .mainheader nav ul li a {
   vertical-align: bottom;
 }
-
 .form-style-1 {
     margin:10px auto;
     max-width: 200px;
@@ -183,7 +183,6 @@ select{
 .form-style-1 .field-divided{
     width: 40%;
 }
-
 .form-style-1 .field-long{
     width: 100%;
 }
@@ -205,9 +204,7 @@ select{
     -moz-box-shadow:none;
     -webkit-box-shadow:none;
 }
-.form-style-1 .required{
-    color:red;
-}
+
 
 .annons {
   text-align: center;
@@ -232,7 +229,7 @@ select{
   width: 800px;
   height: 800px;
   margin: auto;
-
+  margin-bottom: -10px;
   background-color: white;
 }
 #list-items {
@@ -241,4 +238,12 @@ select{
 
 #list-lost {
   list-style-type: none;
+}
+
+.ads > li {
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+.ads {
+  padding: 20px;
 }
