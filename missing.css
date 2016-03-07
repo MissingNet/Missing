@@ -4,7 +4,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -22px;
-  width: 100%;
+  min-width: 1200px;
   background-image: url(bilder/panoramacity.jpg  );
   background-repeat: no-repeat;
   background-color: white;
@@ -188,7 +188,7 @@ select{
     width: 100%;
 }
 .form-style-1 .field-select{
-    width: 50%;
+    width: 100%;
 }
 .form-style-1 .field-textarea{
     height: 100px;
@@ -234,4 +234,11 @@ select{
   margin: auto;
 
   background-color: white;
+}
+#list-items {
+  list-style-type: none;
+}
+
+#list-lost {
+  list-style-type: none;
 }
