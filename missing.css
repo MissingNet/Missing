@@ -219,4 +219,6 @@ select{
 .maintitle {
   color: #1C545A;
   text-align: center;
+  font-weight:normal;
+
 }
