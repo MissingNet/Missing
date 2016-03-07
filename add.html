@@ -9,24 +9,24 @@
  Parse.initialize("E5EKoeXtpVvSv4HStowrBpo6bb3vMFY266vEl2gm", "6q5St0hTHhzZHePURoJFgjXT6GE6dsASlaXIqRVj");
  </script>
 <meta charset="utf-8">
-<title>Missing - We help</title>
+<title>Lägg till annons</title>
 </head>
 <body>
   <header class="mainheader">
     <nav class="leftbar">
         <ul>
-         <li class="active"><a href="index.html">Home</a></li>
-         <li><a href="#">Service</a></li>
+         <li class="active"><a href="index.html">Hem</a></li>
+         <li><a href="#">Karta</a></li>
          <li><img class="logo" alt="MISNG" src="bilder/logo.png"></li>
-         <li><a href="index.html">Add</a></li>
-         <li><a href="#">Contact</a></li>
+         <li><a href="index.html">Skapa Annons</a></li>
+         <li><a href="#">Kontakt</a></li>
        </ul>
      </nav>
   </header>
 
   <article class="add">
     <h1 class="annons">Lägg till annons</h1>
-<!--    <form>
+ <!--    <form>
       <ul class="form-style-1">
         <li><label>Fullständigt namn <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
         <li>
@@ -50,10 +50,18 @@
     </ul>
   </form> -->
 
-  <form id="post-form">
-    <p><input id="post-title" type="text">Title </p>
-    <p><textarea id="post-description"></textarea></p>
-    <p><input id="post-name" type="text">name</p>
+  <form id="post-form" class="form-style-1">
+    <p><select id="post-lost" class="field-select">
+      <option value="lost">Borttappat</option>
+      <option value="found">Hittat</option>
+    </select></p>
+    <label> Vad är borttappat/hittat? </label>
+    <p><input id="post-title" type="text"></p>
+    <label> Beskrivning av föremålet </label>
+    <p><textarea id="post-description" class="field-long field-textarea"></textarea></p>
+    <label> Ditt namn </label>
+    <p><input id="post-name" type="text"></p>
+
     <p><input type="submit"></p>
 
   </form>
