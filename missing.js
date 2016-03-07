@@ -50,7 +50,7 @@ function getItems() {
 
 getItems();
 
-$("#post-form").submit(function(event){
+$("#button").click(function(event){
     var title = $("#post-title").val();
     var description = $("#post-description").val();
     var name = $("#post-name").val();
@@ -74,4 +74,6 @@ $("#post-form").submit(function(event){
         console.log("Error:"+error.message);
       }
     });
+    $(".success-box").css("visibility", "visible");
+    $('#post-form').trigger("reset");
   });
