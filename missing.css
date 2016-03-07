@@ -222,3 +222,17 @@ select{
   font-weight:normal;
 
 }
+
+.borttappadul {
+  list-style-type: none;
+}
+.borttappadh3 {
+  font-weight: normal;
+}
+.karta{
+  width: 800px;
+  height: 800px;
+  margin: auto;
+
+  background-color: white;
+}

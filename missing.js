@@ -15,7 +15,7 @@ function getItems() {
           output += "<li>";
           output += "<h3>"+title+"</h3>";
           output += "<p>"+description+"</p>";
-          output += "<p>"+"Hittat av:"+name+"</p>";
+          output += "<p>"+"Kontakta: "+name+"</p>";
 
           output += "</li>";
         }
