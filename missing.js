@@ -77,3 +77,11 @@ $("#button").click(function(event){
     $(".success-box").css("visibility", "visible");
     $('#post-form').trigger("reset");
   });
+
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 58.589937, lng:  16.171304},
+      zoom: 12
+    });
+  }
